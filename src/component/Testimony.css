@@ -1,0 +1,80 @@
+.testimony{
+    background-color:  rgb(247, 239, 228); 
+   padding: 1em;
+}
+
+.testimony-title{
+    text-align: center;
+    color:  rgb(192, 117, 4);
+}
+.testimony-title::after{
+    content:"";
+    display:block ;
+    width: 4em;
+    height: 2px;
+    margin: 0.5em auto 1em;
+    background:rgb(153, 67, 9);
+    opacity: 0.40;
+}
+.test-main-cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+.test-img-cont1{
+    width: 45%;
+   
+    border-radius: 20%;
+    background:  rgb(241, 214, 173);
+ text-align: center;
+ padding: 1em;
+ 
+ 
+}
+.test-img-cont2{
+    width: 45%;
+  
+    border-radius: 20%;
+    background:  rgb(241, 214, 173);
+ text-align: center;
+ padding: 1em;
+}
+.line{
+    border-top: 1px rgb(247, 184, 142) dashed;
+    margin-top: -.5em;
+}
+
+
+.test-img{
+      
+     margin: 6% auto;
+    text-align: center;
+}
+.test-text{
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+    margin-top: 2em;
+    color:rgb(107, 66, 5);
+    align-items: center;
+}
+.read-more{
+    text-align: right;
+     color: rgb(102, 63, 4);
+    margin-right: 1em;
+    font-weight: 500;
+    animation: read 3s  infinite ease-in-out ;
+    font-size: small;
+    cursor: pointer;
+    
+    
+}
+@keyframes read {
+    0%{
+        opacity: .1;
+    }
+    100%{
+        opacity: 1;
+       
+    }
+}
